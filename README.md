@@ -1,0 +1,4 @@
+# SimpleRouter
+
+Apache Camel sample
+
