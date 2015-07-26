@@ -1,0 +1,30 @@
+group 'SimpleRouter'
+version '0.0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.camel:camel-core:2.15.2'
+    compile 'org.apache.camel:camel-netty4:2.15.2'
+    compile 'org.apache.camel:camel-http:2.15.2'
+    compile 'org.apache.camel:camel-http4:2.15.2'
+    compile 'org.apache.camel:camel-jms:2.15.2'
+    compile 'org.apache.camel:camel-netty-http:2.15.2'
+    compile 'org.apache.camel:camel-netty:2.15.2'
+    compile 'org.apache.camel:camel-stream:2.15.2'
+    compile 'org.apache.camel:camel-aws:2.15.2'
+    compile 'commons-io:commons-io:2.4'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'commons-configuration:commons-configuration:1.10'
+    compile 'org.apache.logging.log4j:log4j-api:2.3'
+    compile 'org.apache.logging.log4j:log4j-core:2.3'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'org.slf4j:slf4j-simple:1.7.12'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
