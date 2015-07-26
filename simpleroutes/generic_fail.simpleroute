@@ -1,0 +1,3 @@
+#!GenericRouter
+
+path="FROM:file:///tmp?fileName=testdata.txt&noop=true""TO:file:///xx/tmp?fileName=testdata.txt_out&fileExist=Fail"

@@ -1,0 +1,6 @@
+#!IdempotentRouter
+
+FROM=stream:file?fileName=/tmp/exception.txt&delay=2000&scanStream=true&retry=true&scanStreamDelay=2000
+#PROCESSOR=StringFilterProcessor?pattern=Exception:
+PATTERN=.*Exception: .*
+TO=stream:out
